@@ -1,0 +1,25 @@
+[0m15:08:12.402341 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 15:08:12.491878 | 073572cf-0f4a-406c-a49e-1bde72ae987c ==============================
+[0m15:08:12.491878 [info ] [MainThread]: Running with dbt=1.11.2
+[0m15:08:12.492884 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\alfonsoe\\.dbt', 'use_colors': 'True', 'invocation_command': 'dbt init --skip-profile-setup airbnb', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m15:08:12.545492 [debug] [MainThread]: Starter project path: C:\Program Files\miniforge3\Lib\site-packages\dbt\include\starter_project
+[0m15:08:12.581882 [info ] [MainThread]: 
+Your new dbt project "airbnb" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:08:12.584943 [debug] [MainThread]: Command `dbt init` succeeded at 15:08:12.583874 after 0.31 seconds
+[0m15:08:12.585873 [debug] [MainThread]: Flushing usage events
