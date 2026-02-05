@@ -1,5 +1,6 @@
 {
     "python.defaultInterpreterPath": "C:\\Program Files\\Miniforge3\\python.exe",
     "dbt.dbtPythonPath": "C:\\Program Files\\Miniforge3\\python.exe",
-    "dbt.dbtExecutablePath": "C:\\Program Files\\miniforge3\\Scripts\\dbt.exe"
+    "dbt.dbtExecutablePath": "C:\\Program Files\\miniforge3\\Scripts\\dbt.exe",
+    "dbt.enableNewLineagePanel": true
 }
