@@ -3,7 +3,7 @@ WITH raw_listing AS (
 )
 SELECT 
     id AS listing_id,
-    name AS lisitng_name,
+    name AS listing_name,
     listing_url,
     room_type,
     MINIMUM_NIGHTS,

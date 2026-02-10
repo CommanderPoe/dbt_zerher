@@ -36,3 +36,16 @@ Runtime Error
   
 [0m20:05:59.685167 [debug] [MainThread]: Command `dbt run` failed at 20:05:59.685167 after 0.19 seconds
 [0m20:05:59.685167 [debug] [MainThread]: Flushing usage events
+[0m11:51:16.034143 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 11:51:16.116503 | fda2b836-ffab-4de1-b524-f37e01a85ee0 ==============================
+[0m11:51:16.116503 [info ] [MainThread]: Running with dbt=1.11.2
+[0m11:51:16.117467 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\alfonsoe\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt run', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m11:51:16.117467 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\alfonsoe\Desktop\DBT_Zero_to_Hero\dbt_zerher\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m11:51:16.118468 [debug] [MainThread]: Command `dbt run` failed at 11:51:16.118468 after 0.21 seconds
+[0m11:51:16.119553 [debug] [MainThread]: Flushing usage events
