@@ -1,0 +1,1 @@
+select * from AIRBNB.DEV_dbt_test__audit.accepted_values_dim_listings_c_da027d2c97af9f9559009c1f1ddd00df
