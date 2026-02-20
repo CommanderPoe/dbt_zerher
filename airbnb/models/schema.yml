@@ -5,7 +5,8 @@ models:
       - min_row_count:
           arguments:
             min_row: 1000
-          severity: error
+          config:
+            severity: error
     columns:
       - name: listing_id
         description: "The unique identifier for each listing."
@@ -33,7 +34,7 @@ models:
         description: "{{ doc('dim_listing_cleansed__minimum_nights') }}"
         data_tests:
           - positive_values
-          
+
   - name: dim_hosts_cleansed
     config:
       contract:
@@ -42,16 +43,16 @@ models:
       - name: host_id
         description: "The unique identifier for each host."
         data_type: integer
-        data_tests: 
-          - unique 
+        data_tests:
+          - unique
           - not_null
 
       - name: host_name
         description: "The name of the host."
         data_type: string
-        data_tests: 
+        data_tests:
           - not_null
-        
+
       - name: is_superhost
         description: "Indicates whether the host is a superhost (true/false)."
         data_tests:
